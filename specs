@@ -1,0 +1,6 @@
+
+var name = "Joe";
+var height = "72";
+var message = `$ {name}, is ${height}tall;
+console.log (message);
+Module.exports ={message,name,height"};

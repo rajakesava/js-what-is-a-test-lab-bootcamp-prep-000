@@ -1,5 +1,4 @@
-# Running Tests
-
+```
 You understand how to read tests, now it's time to run the tests. We've made it fairly easy. In the same terminal that you used to write `nodejs tests.js` or `nodejs index.js` now, you just need to write `learn`. That's it! No matter what the lab, our Learn command will figure out where you are and run the appropriate tests and give you results.
 
 Speaking of results... let's talk about how to read the results that tests give you.
@@ -26,10 +25,8 @@ If we run `learn` in our terminal right now, you'll get a bunch of failed tests.
 
       Error: Expected 'Joe' to equal 'Susan'
       + expected - actual
-
-      -Joe
-      +Susan
-
+-Joe
++Susan
       at assert (node_modules/expect/lib/assert.js:29:9)
       at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)
       at Context.it (test/index-test.js:6:26)
@@ -37,7 +34,7 @@ If we run `learn` in our terminal right now, you'll get a bunch of failed tests.
   2) what-is-a-test Height is less than 40:
      Error: Expected 74 to be less than 40
       at assert (node_modules/expect/lib/assert.js:29:9)
-      at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)
+      at Expectation.toBeLessThan le(node_modules/expect/lib/Expectation.js:156:28)
       at Context.it (test/index-test.js:13:28)
 
   3) what-is-a-test Message gives the name and height:

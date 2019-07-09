@@ -1,0 +1,14 @@
+// write your code below!
+/var favourite game = "Cricket";
+var message = `${Name},is ${
+var name = "Joe Burgess";
+var height = "70";
+var weight = "223"
+var favourite game = "Cricket";
+var message = `${Name}, ${Height},tall and$[Weight},${game};
+console.log(Message);
+module.exports = {message,name,height,weight,game};
+//
+
+
+

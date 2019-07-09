@@ -22,4 +22,8 @@ describe('what-is-a-test', () => {
   });
 
 });
+  
+module.exports(name,height,message);
+console.log(Name,Height, Message);
+
 
